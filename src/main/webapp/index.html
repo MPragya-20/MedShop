@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>homemed.com</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+.mt-10{margin-top: 10px;}
+.mt-50{margin-top: 50px;}
+.callIcon{color:white; margin-top: 20px;}
+.whiteText{color:white;}
+.flex{
+display:flex;
+float:"left";
+justify-content: space-around;margin-top: 50px;}
+</style>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Home med</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Medicines <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="babyCare.jsp">Baby care</a></li>
+            <li><a href="HealthProducts.jsp">Health Products</a></li>
+            <li><a href="genmed.html">Generic Medicines</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Consult Doctors</a></li>
+      </ul>
+      <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+  <div class="mt-10"><a href="view_cart.html"><button>View cart</button></a>
+      <ul class="nav navbar-nav navbar-right">
+      	<li class="whiteText"><i class='fa fa-phone callIcon'></i> Call us now </li>
+        <li><a href="sign_up.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container mt-50">
+  <!-- Add a background image -->
+<header id="home">
+  <div class="">
+  </div>
+  <div class="">
+    <span class="" style="font-size:100px">Get instant delivery with minimum cost</span>
+    <span class="" style="font-size:60px"><b><br> &nbsp; and<br>Discount</b><span><br>with 24/7 hrs service</span></span>
+
+  </div>
+</header>
+  <div class = 'flex'>
+  
+  <div class="card img-fluid" style="width:300px;height:300px">
+  	<a href = "babyCare.jsp">
+    <img class="card-img-top" src="https://images.indianexpress.com/2018/07/wp-baby-gettyimages-537424238.jpg" alt="Card image" style="width:300px;height:300px">
+    <span class="card-img-overlay">
+      Baby care
+    </span>
+    </a>
+  </div>
+  
+  <div class="card img-fluid" style="width:300px;height:300px">
+    
+    <a href = "HealthProducts.jsp">
+    <img class="card-img-top" src="https://5.imimg.com/data5/YF/EC/MY-30021521/herbal-wellness-products-500x500.jpg" alt="Card image" style="width:300px;height:300px">
+    <span class="card-img-overlay">
+      Health products
+    </span>
+    </a>
+  </div>
+  <div class="card img-fluid" style="width:300px;height:300px">
+    <a href = "genmed.html">
+    <img class="card-img-top" src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2019/07/12/Pictures/ebola-drugs_95807052-a4a6-11e9-88eb-6879d27b9db7.jpg" alt="Card image" style="width:300px;height:300px">
+    <span class="card-img-overlay">
+     Generic medicines
+    </span>
+    </a>
+  </div>
+  <div class="card img-fluid" style="width:300px;height:300px">
+  <a href = "HealthCare.jsp">
+    <img class="card-img-top" src="https://images.theconversation.com/files/304957/original/file-20191203-66986-im7o5.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop" alt="Card image" style="width:300px;height:300px">
+    <span class="card-img-overlay">
+     Doctor Consultation
+    </span>
+    </a>
+  </div>
+  </div>
+  
+  <footer class="container-fluid text-center" style="margin-top: 50px;">
+  <p>Home Med Copyright</p>  
+  <form class="form-inline">Get deals:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Email</button>
+    Add footer
+  </form>
+</footer>
+</div>
+
+</body>
+</html>
